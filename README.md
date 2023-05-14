@@ -7,6 +7,6 @@
 3. Клонируем репозиторий:<br>
 ` git clone https://github.com/artyomp1506/ucsc-devops`
 4. Распаковываем архив:<br>
-`tar -xaf nginx-php.tar.gz && cd ucsc-devops`
+`cd ucsc-devops && tar -xaf nginx-php.tar.gz `
 5. Запускаем контейнеры из docker-compose:<br>
 `docker-compose up -d`
